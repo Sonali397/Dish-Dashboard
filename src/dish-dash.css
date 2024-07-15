@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.App h1 {
+    text-shadow: 4px 2px black;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(51, 49, 47);
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, #e15e2a 0%, rgb(163, 43, 43) 35%, rgb(204, 69, 148) 100%);
+
+}
+
+.App ul {
+    height: 25em;
+    ;
+    background-color: rgb(235, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.App ul>li {
+    height: 200px;
+    width: 150px;
+    /* background-color:  rgb(198, 83, 83); */
+    background: linear-gradient(90deg, #dc6868 0%, rgb(204, 69, 69) 100%);
+    margin-top: 50px;
+    border: 1px, black;
+    border-radius: 10px;
+    list-style-type: none;
+    display: flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 9px 10px rgb(209, 207, 207);
+}
+
+.App ul>li>h2 {
+    text-align: center;
+    padding: 15px auto;
+    margin: 15px, auto;
+    font-size: large;
+    margin: 5px;
+}
+
+.App img {
+
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border: 1px black;
+    border-radius: 100%;
+    box-shadow: 4px 7px 7px;
+
+}
+
+.App ul>li>p {
+    text-align: center;
+    padding: 15px auto;
+    margin: 15px auto;
+
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.App ul>li>button {
+    text-align: center;
+
+    padding: 15px auto;
+
+    font-size: 15px;
+    margin: 10px;
+    border: 1px black;
+    border-radius: 120px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 140px;
+    color: rgb(255, 0, 0);
+}
